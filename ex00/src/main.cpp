@@ -17,6 +17,6 @@ int main (int argc, char **argv)
 	if (!arg_check(argc, argv))
 		return (1);
 	std::string val = static_cast<std::string>(argv[1]);
-	ScalarConverter().convert(val);
+	ScalarConverter::convert(val);
 	return (0);
 }

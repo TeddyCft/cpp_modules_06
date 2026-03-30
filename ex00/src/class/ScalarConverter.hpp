@@ -18,13 +18,13 @@ class ScalarConverter
 {
 	private:
 
-	public:
-
-	void convert(std::string &str) const;
-
 	ScalarConverter(void);
 	ScalarConverter(const ScalarConverter &copy);
 	ScalarConverter &operator=(const ScalarConverter &og);
+
+	public:
+
+	static void convert(std::string &str);
 	~ScalarConverter(void);
 }		;
 

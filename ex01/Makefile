@@ -3,14 +3,14 @@
 MAKEFLAGS += --no-print-directory
 QUIET = 	
 
-NAME =	ex00
+NAME =	ex01
 INCLUDES =	./includes ./src/class
 CC = $(QUIET) c++
 FLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 
 FILES	=	main
 
-CLASS		=	ScalarConverter
+CLASS		=	Serializer
 
 SRC_DIR		= 	src/
 SRC_FILES	=	$(addsuffix .cpp, $(FILES)) \

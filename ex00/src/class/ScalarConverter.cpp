@@ -240,7 +240,7 @@ void displayChar(std::string &val, t_valtype type)
 	std::cout << "]" << std::endl;
 }
 
-void	ScalarConverter::convert(std::string &val) const
+void	ScalarConverter::convert(std::string &val)
 {
 	t_valtype type = getType(val);
 	displayChar(val, type);
